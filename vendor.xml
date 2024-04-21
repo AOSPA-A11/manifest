@@ -25,7 +25,7 @@
   </project>
   <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" remote="caf_vendor"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="caf_vendor"/>
-  <project name="platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" remote="caf_vendor">
+  <project name="platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/app_snapcam_product.mk" src="app_snapcam_system_product.mk"/>
   </project>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"
