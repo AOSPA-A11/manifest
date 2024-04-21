@@ -29,6 +29,10 @@
            review="gerrit.aospa.co"
            revision="ruby"/>
 
+  <remote  name="aospa-a11"
+           fetch="https://github.com/AOSPA-A11"
+           revision="ruby"/>
+
   <remote  name="bitbucket"
            fetch="https://bitbucket.org"
            revision="ruby" />
