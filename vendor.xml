@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" remote="caf_vendor"/>
+  <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" remote="caf_vendor"
+      revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project name="device/qcom/common" remote="caf_vendor">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
@@ -9,7 +10,8 @@
   <project name="kernel/build" path="device/qcom/kernelscripts" remote="caf_vendor"/>
   <project groups="cyborg" name="kernel/msm-5.4" remote="caf_vendor"/>
   <project name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" remote="caf_vendor"/>
-  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" remote="caf_vendor"/>
+  <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"
+      remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project name="platform/hardware/qcom/display" path="hardware/qcom/display" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-product.mk" src="config/display-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/display-board.mk" src="config/display-board.mk"/>
@@ -26,7 +28,8 @@
   <project name="platform/packages/apps/SnapdragonCamera" path="vendor/codeaurora/packages/apps/SnapdragonCamera" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/app_snapcam_product.mk" src="app_snapcam_system_product.mk"/>
   </project>
-  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="caf_vendor"/>
+  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"
+      remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
   </project>
@@ -69,7 +72,9 @@
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" remote="caf_vendor"/>
-  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" remote="caf_vendor"/>
+  <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"
+      path="vendor/qcom/opensource/wlan/utils/sigma-dut" remote="caf_vendor"
+      revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project name="platform/vendor/qcom/holi" path="device/qcom/holi" remote="caf_vendor"/>
   <project name="platform/vendor/qcom/kona" path="device/qcom/kona" remote="caf_vendor"/>
   <project name="platform/vendor/qcom/lahaina" path="device/qcom/lahaina" remote="caf_vendor"/>
