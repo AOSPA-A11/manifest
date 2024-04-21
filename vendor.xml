@@ -30,10 +30,10 @@
   </project>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap"
       remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
-  <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" remote="caf_vendor">
+  <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/nfc-vendor-product.mk" src="nfc_vendor_product.mk"/>
   </project>
-  <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="caf_vendor"/>
+  <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project groups="cyborg" name="platform/vendor/opensource/audio-kernel" path="kernel/msm-5.4/techpack/audio" remote="caf_vendor"/>
   <project groups="cyborg" name="platform/vendor/opensource/camera-kernel" path="kernel/msm-5.4/techpack/camera" remote="caf_vendor"/>
   <project groups="cyborg" name="platform/vendor/opensource/dataipa" path="kernel/msm-5.4/techpack/dataipa" remote="caf_vendor"/>
@@ -52,7 +52,8 @@
   <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
-  <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" remote="caf_vendor"/>
+  <project name="platform/vendor/qcom-opensource/mmc-utils"
+      path="vendor/qcom/opensource/mmc-utils" remote="caf_vendor" revision="refs/tags/LA.UM.9.14.r1-19500-LAHAINA.QSSI12.0"/>
   <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power" remote="caf_vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
